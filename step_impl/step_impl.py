@@ -1,7 +1,7 @@
 '''
 @Author: LEGEND
 @Date: 2020-02-23 16:00:23
-@LastEditTime: 2020-03-29 04:44:51
+@LastEditTime: 2020-03-29 05:19:56
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \gauge-tests\step_impl\step_impl.py
@@ -108,5 +108,5 @@ def before_step_hook(context):  # hook函数
 @after_step()
 def after_step_hook(context):  # hook函数
     print("我是step的徒弟!\n", context)
-    print("断点结束！")
+    
     
