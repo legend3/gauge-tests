@@ -1,0 +1,17 @@
+# Gauge - metadata dir
+.gauge
+
+# Gauge - log files dir
+logs
+
+# Gauge - reports dir
+reports
+
+# Gauge - python compiled files
+*.pyc
+
+# Gauge - history
+*.history
+
+# Gauge - step_impl._pycache_
+*.step_impl._pycache_
