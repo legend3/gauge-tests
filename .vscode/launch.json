@@ -2,37 +2,6 @@
     // 使用 IntelliSense 了解相关属性。 
     // 悬停以查看现有属性的描述。
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
-//源码管理说明如下：
-    // Pull：对应 git pull 命令
-    // Pull (Rebase)：对应 git pull --rebase 命令
-    // Pull from：对应 git pull origin --tags 命令
-    // Push：对应 git push 命令
-    // Push to：对应 git origin
-    // Sync：先 pull 再 push
-    // -
-    // Checkout to：对应 git checkout 命令
-    // Publish Branch：对应 git push -u origin 命令
-    // -
-    // Commit All：先 add 再 commit
-    // Commit All (Amend)：先 add 再 commit --amend
-    // Commit All (Signed Off)：先 add 再 commit --signoff
-    // Commit Staged：对应 git commit 命令
-    // Commit Staged (Amend)：对应 git commit --amend 命令
-    // Commit Staged (Signed Off)：对应 git commit --signoff 命令
-    // Undo Last Commit：对应 git reset 命令
-    // -
-    // Discard All Changes：
-    // Stage All Changes：对应 git add 命令
-    // Unstage All Changes：
-    // -
-    // Apply Latest Stash：
-    // Apply Stash：
-    // Pop Latest Stash：
-    // Pop Stash：
-    // Stash：
-    // Stash (Include Untracked)：
-    // -
-    // Show Git Output：显示 git 的控制台输出
     "version": "0.2.0",
     "configurations": [
         {
