@@ -33,7 +33,6 @@
     // Stash (Include Untracked)：
     // -
     // Show Git Output：显示 git 的控制台输出
-
     "version": "0.2.0",
     "configurations": [
         {
