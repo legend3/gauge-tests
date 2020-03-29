@@ -125,10 +125,8 @@ Gauge将遍历表并针对每一行运行该特定scenario。
 
 
 
-
 ____________________
 "Teardown":
 
 * Logout user "mike"
 * Delete user "mike"
-
