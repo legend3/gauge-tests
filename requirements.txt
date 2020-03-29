@@ -7,4 +7,5 @@ Windows
 6.创建一个gauge-python项目两种方式：
    a.预先创建项目目录，路径进去项目目录，cmd命令进去执行：gauge init python
    b.vscode中进去工作区，ctrl+shift+p，输入gsuge选择create a new Gauge Project.
+   b.vscode中进去工作区，ctrl+shift+p，输入gsuge选择create a new Gauge Project
    
