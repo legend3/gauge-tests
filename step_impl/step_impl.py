@@ -1,7 +1,7 @@
 '''
 @Author: LEGEND
 @Date: 2020-02-23 16:00:23
-@LastEditTime: 2020-03-29 15:44:36
+@LastEditTime: 2020-03-30 01:54:31
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \gauge-tests\step_impl\step_impl.py
@@ -36,8 +36,10 @@ def assert_default_vowels(given_vowels):
 
 @step("Almost all words have vowels <table>")
 def assert_words_vowel_count(table):
-    actual = [str(number_of_vowels(word)) for word in table.get_column_values_with_name("Word")]
-    expected = [str(count) for count in table.get_column_values_with_name("Vowel Count")]
+    actual = [str(number_of_vowels(word))
+              for word in table.get_column_values_with_name("Word")]
+    expected = [str(count)
+                for count in table.get_column_values_with_name("Vowel Count")]
     assert expected == actual
 
 
@@ -72,13 +74,6 @@ def the_word_has_vowels(word, number):
     print('word {}.'.format(word), 'number {}'.format(number))
 
 
-
-
-
-
-
-
-
 """
 实现.sep的teardown实例
 """
@@ -103,7 +98,9 @@ def before_scenario_hook():  # hook函数
 
 @before_step("<tags>")  # 只执行"Tags"标签的step
 def before_step_hook(context):  # hook函数
-    print("我是step的师傅！\n", context)  # (当前hook执行信息)为了获得有关当前规范，场景和步骤执行的其他信息，可以将一个名为ExecutionContext的附加参数添加到hooks方法中。
+    # (当前hook执行信息)为了获得有关当前规范，场景和步骤执行的其他信息，可以将一个名为ExecutionContext的附加参数添加到hooks方法中。
+    print("我是step的师傅！\n", context)
+
 
 @after_step()
 def after_step_hook(context):  # hook函数
